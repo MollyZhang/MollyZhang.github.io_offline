@@ -1,0 +1,17 @@
+.bg-image {
+    background: url('../img/glacier.jpg');
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: 100% auto;
+    padding: 200px 0;
+}
+
+.navbar {
+    background: rgba(255,255,255,0.8);
+}
+
+
+.blur {
+    -webkit-filter: blur(1px);
+    filter: blur(1px);
+}
