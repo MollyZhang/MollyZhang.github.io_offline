@@ -2,16 +2,26 @@
     background: url('../img/glacier.jpg');
     background-repeat: no-repeat;
     background-position: center center;
-    background-size: 100% auto;
-    padding: 200px 0;
+    background-size: 100%, auto;
+    padding: 250px 0;
 }
+
+.title-words {
+    font-size: 140%;
+    font-weight: bold;
+}
+
 
 .navbar {
-    background: rgba(255,255,255,0.8);
+    background: rgba(255,255,255,0.85);
 }
-
 
 .blur {
-    -webkit-filter: blur(1px);
-    filter: blur(1px);
+    -webkit-filter: blur(0px);
+    filter: blur(0px);
 }
+
+.img-center {
+    margin: 0 auto;
+}
+
