@@ -1,4 +1,6 @@
 ---
+layout: post
+excerpt: "kdkfkdfkdfkkdfkdfkdfdfdk"
 ---
 
 
