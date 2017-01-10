@@ -8,16 +8,6 @@ section.bg-molly {
 }
 
 
-.bg-tibet {
-    background: url('../img/tibet.jpg');
-    background-repeat: no-repeat;
-    background-position: center center;
-    /*background-size: 100%, auto;*/
-    background-size: cover;
-    padding: 250px 0;
-}
-
-
 .title-words {
     font-size: 118%;
     font-weight: bold;
@@ -28,15 +18,22 @@ section.bg-molly {
     background: rgba(255,255,255,0.85);
 }
 
-.blur {
-    -webkit-filter: blur(3px);
-    filter: blur(3px);
-}
 
 .img-center {
     margin: 0 auto;
 }
 
-.blog {
-    padding-top: 65px;
+.posts { list-style-type: none; }
+
+.posts .post-link {
+    font-size: 22px;
+    letter-spacing: -1px;
+    line-height: 1;
 }
+
+.posts .post-date {
+    display: block;
+    font-size: 15px;
+    color: #818181;
+}
+

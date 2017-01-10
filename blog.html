@@ -2,16 +2,15 @@
 layout: default
 title: Blog Page
 ---
-<div class="blog">
-    <ul>
+<div class="blog container">
+    <ul class="posts">
     	{% for post in site.posts %}
             <li>
-                <span class="post-date">{{ post.date }}"</span>
-                <a href="{{ post.url }}">{{ post.title }}</a>
+                <span class="post-date">{{ post.date | date: "%b %-d, %Y"}}</span>
+                <a class="post-link" href="{{ post.url }}">{{ post.title }}</a>
                 <br>
                 {{ post.excerpt }}
             </li>
     	{% endfor %}
-    
     </ul>
 </div>
