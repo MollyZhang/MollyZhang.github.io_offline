@@ -8,6 +8,14 @@ section.bg-molly {
 }
 
 
+#brand-words {
+    color: rgb(140,40,40);
+    font-size: 140%;
+    font-weight: bold;
+    font-family: 'Permanent Marker', cursive;
+}
+
+
 .title-words {
     font-size: 118%;
     font-weight: bold;
