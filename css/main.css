@@ -7,7 +7,6 @@ section.bg-molly {
     padding: 250px 0;
 }
 
-
 #brand-words {
     color: rgb(140,40,40);
     font-size: 140%;
@@ -22,7 +21,7 @@ section.bg-molly {
 }
 
 
-.navbar {
+.navbar-for-home.navbar {
     background: rgba(255,255,255,0.85);
 }
 
@@ -42,9 +41,10 @@ section.bg-molly {
 }
 
 .posts .post-link {
-    font-size: 22px;
+    font-size: 25px;
     letter-spacing: -1px;
     line-height: 1;
+    color: rgb(140,40,40);
 }
 
 .posts .post-date {
@@ -53,4 +53,6 @@ section.bg-molly {
     color: #818181;
 }
 
-
+.post {
+    padding-top: 70px;
+}
