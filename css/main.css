@@ -71,6 +71,7 @@ section.bg-molly {
 
 .posts .post-link {
     font-size: 25px;
+    font-weight: 500;
     letter-spacing: -1px;
     line-height: 1;
     color: rgb(140,40,40);
@@ -124,12 +125,12 @@ section.bg-molly {
 
 .post-content h3 {
   font-size: 26px;
-  letter-spacing: -1px;
+  letter-spacing: 0px;
 }
 
 .post-content h4 {
   font-size: 20px;
-  letter-spacing: -1px;
+  letter-spacing: 0.5px;
 }
 
 .post-content blockquote {
@@ -168,20 +169,19 @@ section.bg-molly {
   padding-left: 0;
 }
 
-/* terminal */
-.post pre.terminal {
-  border: 1px solid #000;
-  background-color: #333;
-  color: #FFF;
-  -webkit-border-radius: 3px;
-  -moz-border-radius: 3px;
-  border-radius: 3px;
-}
-
-.post pre.terminal code { background-color: #333; }
-
-
-
 .post {
     padding-top: 70px;
 }
+
+/* imgs in post */
+
+.imgcap img {
+    border: 1px solid #999;
+    max-width: 100%;
+}
+.imgcap {
+    color: #555;
+    font-size: 14px;
+    text-align: center;
+}
+
