@@ -4,7 +4,7 @@ excerpt: "Buidling of this personal website/blog with Jekyll and Github Page"
 thumbnail: "/img/01-cat-wants-to-tell-you-laptop.jpg"
 ---
 
-#### I started to use github page and jekyll to make my personal website/blog a couple of weeks ago, and here is the result! I am going to flesh out the projects section of my website, and I will aim to regularly post techniquely themed blog posts like this one. Basically it will be a way for me to write down and share what I learn during my studies in Computer Science and Genomics.
+#### I started to use github page and jekyll to make my personal website/blog a couple of weeks ago, and here is the result! I am going to flesh out the projects section of my website, and I will aim to regularly post techniquely themed blog posts like this one. Basically it will be a way for me to write down and share what I learn during my studies in computer science, machine learning and genomics.
 
 #### **What is [Github Page](https://pages.github.com)**
 
