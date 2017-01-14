@@ -31,7 +31,15 @@ section.bg-molly {
     margin: 0 auto;
 }
 
-.posts { list-style-type: none; }
+
+.blog {
+    padding-top: 70px;
+}
+
+.posts {
+    list-style-type: none; 
+    padding-left: 0;
+}
 
 .posts .post-link {
     font-size: 22px;
@@ -44,4 +52,5 @@ section.bg-molly {
     font-size: 15px;
     color: #818181;
 }
+
 
