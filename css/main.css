@@ -200,3 +200,24 @@ section.bg-molly {
      background: white;
 }
 
+/* footer */
+.wrapper {
+    min-height: 100%;
+    height: auto !important;
+    /* Margin bottom by footer height */
+    height: 100%;
+    margin: 0 auto -60px;
+}
+
+.footer, .push {
+    height: 60px;
+}
+
+
+
+
+
+.footer {
+    background-color: #eeeeee;
+}
+

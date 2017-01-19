@@ -3,18 +3,20 @@ layout: default
 title: Blog Page
 permalink: /blog/
 ---
-
-{% include navbar.html %}
-
-<div class="blog container">
-    <ul class="posts">
-    	{% for post in site.posts %}
-            <li>
-                <span class="post-date">{{ post.date | date: "%b %-d, %Y"}}</span>
-                <a class="post-link" href="{{ post.url }}">{{ post.title }}</a>
-                <br>
-                {{ post.excerpt }}
-            </li>
-    	{% endfor %}
-    </ul>
+<div class="wrapper">
+    {% include navbar.html %}
+    <div class="blog container">
+        <ul class="posts">
+        	{% for post in site.posts %}
+                <li>
+                    <span class="post-date">{{ post.date | date: "%b %-d, %Y"}}</span>
+                    <a class="post-link" href="{{ post.url }}">{{ post.title }}</a>
+                    <br>
+                    {{ post.excerpt }}
+                </li>
+        	{% endfor %}
+        </ul>
+    </div>
+    <div class="push"></div>
 </div>
+{% include footer.html %}
