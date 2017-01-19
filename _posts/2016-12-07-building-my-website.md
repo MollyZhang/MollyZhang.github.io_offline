@@ -20,7 +20,7 @@ thumbnail: "/img/01-cat-wants-to-tell-you-laptop.jpg"
 #### Jekyll's website has some amazing video tutorials (each 10 to 20 minutes) on how to use it at [jekyll.tips](http://jekyll.tips)
 
 
-#### Finally here is a picture of cat for click bait
+#### Finally here is a picture of cat as click bait:
 <div class="imgcap">
     <img src="{{ page.thumbnail }}" >
 </div>
