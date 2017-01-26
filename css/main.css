@@ -232,5 +232,8 @@ section.bg-molly {
     font-weight: 500;
 }
 
-.contact {text-align: right;}
+.copyright > a {
+    color: rgba(69,69,69,0.89)
+}
+
 
