@@ -68,7 +68,13 @@ Example: The rate of observing heads out of 100 coin throws is $\lambda$, what's
 
 ### Continous Distributions
 
-#### **Uniform Distribution**
+#### **Uniform Distribution**  
+Example: A coin might be fair or loaded with a probability from 0 to 1 continously and equally.  
+* Probability density function $f(x \| a,b) = \frac{1}{b-a} I_{ \\{ a \leq x \leq b \\}}(x)$
+* Expectation $E(X) = \frac{a+b}{2} $
+* Variance $Var(X) = \frac{(b-a)^2}{12} $
+
+
 
 #### **Exponential Distribution**
 
@@ -88,6 +94,6 @@ Example: The rate of observing heads out of 100 coin throws is $\lambda$, what's
 
 ### Notes:
 
-[This tutorial](http://www.markdowntutorial.com/lesson/5/) gave me a great tutorial/review of markdown format.
+* [This tutorial](http://www.markdowntutorial.com/lesson/5/) gave me a great tutorial/review of markdown format.
 
-[This article](http://cwoebker.com/posts/latex-math-magic) helped me display the above math equations on markdown files.
+* [This article](http://cwoebker.com/posts/latex-math-magic) helped me display the above math equations on markdown files.
