@@ -75,19 +75,36 @@ Example: A coin might be fair or loaded with a probability from 0 to 1 continous
 * Variance $Var(X) = \frac{(b-a)^2}{12} $
 
 
+#### **Exponential Distribution**  
+It's the continuous version of geometric distribution and special case of gamma distribution. Example: The rate of earth quake is $\lambda$ per year, what's the distribution of time inverval between two earth quakes. 
 
-#### **Exponential Distribution**
-
-#### **Normal Distribution**
-
-
-
-
+* Probability density function $f(k; \lambda) = \lambda e^{-\lambda x} I_{ \\{ x \geq 0 \\}}(x) $
+* Expectation $E(X) = 1/\lambda $
+* Variance $Var(X) = \frac{1}{\lambda^2} $
 
 
+#### **Normal Distribution**  
+Example: There is a factory that produces coins. They try to produce perfectly fair coins with the same weight on the head and tail sides. However, there is always some error in the production such that a coin is not necessarily fair. Some coins has 50.2% of weight on head side and 49.8% of weight on tail side and so on. The percentage of weight on heads side follows a normal distribution with average around 50%.  
+
+* Probability density function $f(x \| \mu, \sigma^2) = \frac{1}{\sqrt{2 \pi \sigma ^2}} \exp(- \frac{(x- \mu )^2}{2 \sigma^2} ) $
+* Expectation $E(X) = \mu $
+* Variance $Var(X) = \sigma^2 $
 
 
+#### **Gamma Distribution**  
+Define gamma funciton to be used later: $\Gamma(n) = (n-1)!$, if $n$ is a positive integer, else $\Gamma(z) = \int_{0}^{\infty} x^{z-1} e^{-x} dx$.  
+Example: The rate of earth quake is $\beta$ per year, what's the distribution of total time it will take to have $\alpha$ earth quakes.
 
+* Probability density function $f(y\|\alpha,\beta) = \frac{\beta^\alpha}{\Gamma(\alpha)} y^{\alpha-1} e^{- \beta y} I_{\\{y\geq 0\\}}(y)$
+* Expectation $E(X) = \alpha/\beta $
+* Variance $Var(X) = \alpha/\beta^2 $
+
+#### **Beta Distribution**  
+Example: can't think of a good example...it's usually used to describe probability distribution because it's always in interval of [0,1].
+
+* Probability density function $f(y\|\alpha,\beta) = \frac{\Gamma(\alpha + \beta)}{\Gamma(\alpha) \Gamma(\beta)} x^{\alpha-1} (1-x)^{\beta-1} I_{\\{ 0 < x < 1\\}}(x)$
+* Expectation $E(X) = \frac{\alpha}{\alpha + \beta}$
+* Variance $Var(X) = \frac{\alpha\beta}{(\alpha + \beta)^2 (\alpha +\beta + 1)} $
 
 
 
