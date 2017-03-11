@@ -18,7 +18,7 @@ comments: true
 
 #### "Jekyll is a blog-aware, static site generator in Ruby", in other words, jekyll generates .html, .css etc files for your website and then the website is served staticly. Unlike Flask or Django, there is no database behind Jekyll, therefore Jekyll is very light weight and fast. You shouldn't try to  make a complicated web application with Jekyll but it surely makes it easy to make simple websites/blogs.
 
-#### Jekyll's website has some amazing video tutorials \(each 10 to 20 minutes\) micha on how to use it at [jekyll.tips](http://jekyll.tips)
+#### Jekyll's website has some amazing video tutorials \(each 10 to 20 minutes\) on how to use it at [jekyll.tips](http://jekyll.tips)
 
 
 #### Finally here is a picture of cat as click bait:
