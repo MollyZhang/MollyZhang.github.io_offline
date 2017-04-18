@@ -4,6 +4,8 @@ excerpt: "Bernoulli, Bionomial, Uniform, Exponential and Normal Distributions"
 thumbnail: ""
 comments: true
 ---
+This is simply a review of some popular distributions, discrete and continous. This article is to lay foundation to a latter article about a coin-toss example of how observations affects posteriror distribution in a continuous baysian model.
+
 
 ### Some Definitions
 
@@ -105,7 +107,6 @@ Example: can't think of a good example...it's usually used to describe probabili
 * Probability density function $f(y\|\alpha,\beta) = \frac{\Gamma(\alpha + \beta)}{\Gamma(\alpha) \Gamma(\beta)} x^{\alpha-1} (1-x)^{\beta-1} I_{\\{ 0 < x < 1\\}}(x)$
 * Expectation $E(X) = \frac{\alpha}{\alpha + \beta}$
 * Variance $Var(X) = \frac{\alpha\beta}{(\alpha + \beta)^2 (\alpha +\beta + 1)} $
-
 
 
 
