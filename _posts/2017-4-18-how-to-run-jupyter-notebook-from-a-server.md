@@ -5,7 +5,7 @@ thumbnail: ""
 error_message: "/img/error_message_jupyter_remote.png"
 comments: true
 ---
-Here is how you run jupyter notebook from a server:  
+###Here is how you run jupyter notebook from a server:  
 > At the remote server:  
 * `ssh username@remote-server-public-dns`  
 * `jupyter notebook --no-broswer --port 8800`  
@@ -18,7 +18,9 @@ Here is how you run jupyter notebook from a server:
 
 Finally, "ssh -NL" means "do not execute a remote command, instead fowarding 8888 local host connection to remote port 8800 in the remote server over the ssh secure channel".
 
+### bug fixes
 However, I have encountered a weird bug repeatively when using jupyter notebook this way, here is the errror message:
 <div class="imgcap">
     <img src="{{ page.error_message }}" >
 </div>
+That's because jupyter notebook need to write to this file ~/.ipython/profile_default/history.sqlite, but it didn't have write access. Giving all users write access solved this issue. (temporily?) 
