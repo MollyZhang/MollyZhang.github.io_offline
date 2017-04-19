@@ -2,6 +2,7 @@
 layout: post
 excerpt: "Running jupyter notebook from a server and view the notebook in your laptop browser via ssh"
 thumbnail: ""
+error_message: "/img/error_message_jupyter_remote.png"
 comments: true
 ---
 Here is how you run jupyter notebook from a server:  
@@ -17,3 +18,7 @@ Here is how you run jupyter notebook from a server:
 
 Finally, "ssh -NL" means "do not execute a remote command, instead fowarding 8888 local host connection to remote port 8800 in the remote server over the ssh secure channel".
 
+However, I have encountered a weird bug repeatively when using jupyter notebook this way, here is the errror message:
+<div class="imgcap">
+    <img src="{{ page.error_message }}" >
+</div>
