@@ -23,4 +23,9 @@ However, I have encountered a weird bug repeatively when using jupyter notebook 
 <div class="imgcap">
     <img src="{{ page.error_message }}" >
 </div>
-That's because jupyter notebook need to write to this file ~/.ipython/profile_default/history.sqlite, but it didn't have write access. Giving all users write access solved this issue. (temporily?) 
+
+Possible explanations:  
+1. Jupyter notebook need to write to this file ~/.ipython/profile_default/history.sqlite, but it didn't have write access. Giving user write access might solve this issue.  
+2. If 1 doesn't work, try delete the .ipython folder all together and re-run the notebook, this solved the issue for me (as of 4-24-2017)
+
+
